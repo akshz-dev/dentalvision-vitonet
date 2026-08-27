@@ -12,7 +12,7 @@ import torch
 from PIL import Image
 import numpy as np
 import torchvision.transforms as T
-from utils import load_model, predict_mask
+from src.utils import load_model, predict_mask
 
 # App config
 st.set_page_config(page_title="DentalVision - Teeth Segmentation", layout="centered")
